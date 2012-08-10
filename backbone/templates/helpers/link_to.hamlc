@@ -1,0 +1,4 @@
+/ @id   -> element id
+/ @link -> target url
+/ @name -> content do display with link
+%a{ id: @id, href: @link }= @name
